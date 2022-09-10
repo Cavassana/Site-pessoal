@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/**** menu ****/
+#menu-horizontal ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 22, 48);
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+#menu-horizontal ul li{
+    display: inline;
+}
+
+#menu-horizontal ul li a{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu-horizontal ul li a:hover{
+    background-color: rgb(117, 117, 117);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .6s;
+}
+
+/**** home ****/
+.alpha{
+    background-image: url("../imagens/eu_bancada_editado2.jpg" );
+    height: 100vh; /* You must set a specified height */
+    width: auto;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: right center;
+}
+
+.conteudoAlpha{
+      position: absolute;
+      top:50%;
+      left:5%;
+      transform: translateY(-50%);
+}
+
+.alpha h1{
+    color:rgb(26, 4, 76);
+    margin: 10px 0px 20px;
+    font-size: 60px;
+}
+
+.alpha h3{
+    color:rgb(11, 9, 32);
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.alpha h4{
+    color:rgb(5, 4, 11);
+    letter-spacing: 2px;
+    font-size: 18px;
+} /*** home Finalizado ***/
+
+/**** blog ****/
+.beta{
+    /*background-image: url("../imagens/eu_bancada.jpg");*/
+    height: 100vh; /* You must set a specified height */
+    width: auto;
+}
+
+.conteudoBeta{
+    position: absolute;
+    top:25%;
+    left:8%;
+    transform: translateY(-50%);
+}
+
+.beta h4{
+    color:rgb(5, 4, 11);
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.conteudoBeta article{
+    position: inherit;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.conteudoBeta article *{ 
+    grid-column: auto;
+}
+
+/**** curriculo ****/
+.gamma{
+    /*background-image: url("../imagens/eu_bancada.jpg");*/
+    height: 100vh; /* You must set a specified height */
+    width: auto;
+}
+
+.conteudoGamma{
+    position: absolute;
+    top:25%;
+    left:8%;
+    transform: translateY(-50%);
+}
+
+.gamma h4{
+    color:rgb(5, 4, 11);
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+/**** fotos ****/
+.phi{
+    /*background-image: url("../imagens/eu_bancada.jpg");*/
+    height: 100vh; /* You must set a specified height */
+    width: auto;
+}
+
+.conteudoPhi{
+    position: absolute;
+    top:25%;
+    left:8%;
+    transform: translateY(-50%);
+}
+
+.phi h4{
+    color:rgb(5, 4, 11);
+    letter-spacing: 2px;
+    font-size: 18px;
+}

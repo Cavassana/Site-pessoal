@@ -1,0 +1,120 @@
+<!-- Trabalho - Site Pessoal - Pagina blog -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/blog.css">
+    <title>Romualdo C. Jr</title>
+</head>
+<body>
+    <nav id="menu-horizontal">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="curriculo.html">Currículo</a></li>
+            <li><a href="fotos.html">Fotos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h4>Blog</h4>
+        <h1>Eletromagnetismo Aplicado</h1>
+            <p>A ideia desse blog surgiu como uma forma de conciliar a demanda da disciplina <em>TT905 - Programação 
+                Web</em> em desenvolver um site com conteúdo real, e ao mesmo tempo, documentar e organizar o estudo da matéria 
+                <em>TT511 - Eletromagnetismo Aplicado</em>, ambas disciplinas do curso de Engenharia de Telecomunicações da 
+                Faculdade de Tecnologia da <strong>UNICAMP</strong>. As postagens abordarão os conteúdos
+                relacionados a última disciplina mencionada, incluindo os conceitos de cálculo e física estudados anteriormente
+                em formato de revisão. Espero que o estudante que acompanhar esse material consiga ir além 
+                da simples memorização das equações de Maxwell. Boa leitura!! :)
+            </p>
+         <!-- Esqueleto para o segundo post
+        <article id="post2">
+            <hr>
+            <h5>03/04/2022</h5>
+            <header class="header">
+            <h2>Revisão de cálculo vetorial - Parte 2</h2>
+            </header>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia repudiandae quidem consequatur.<br> 
+                Possimus optio minus obcaecati dolorum impedit quis sed magnam officiis necessitatibus sunt nihil iusto, 
+                quasi fugiat delectus unde.
+            </p>
+            <p>
+                Em tempos de pandemia, e tudo o que isso implica, cheguei no hotel, abri o instagram e tinha o seguinte 
+                poema de Manuel Bandeira com uma paisagem de fundo, que dizia: 
+            </p>                                                                                                                trado.                 
+            <p>
+                Sinistro...
+
+            </p> 
+        </article> --> 
+
+        <article id="post1">
+            <hr>
+            <h5>03/04/2022</h5>
+            <header class="header">
+            <h2>Revisão de cálculo vetorial - Parte 1</h2>
+            </header>
+            <BR clear="left"/>
+            <img class="imgEsquerda"src="imagens/equacoesMaxwell.png" width="200px"/>
+            <p> 
+                Ao final do ciclo básico dos cursos relacionados a engenharia elétrica, o aluno foi apresentado
+                 às ferramentas matemáticas necessárias para um entendimento formal de diversos conceitos físicos que 
+                 envolvem os fenômenos ligados a sua futura profissão. Quando o assunto é <em>Eletromagnetismo</em>, 
+                 o cálculo vetorial é pedra angular. O cálculo vetorial fornece as ferramentas matemáticas necessárias 
+                 para que físicos e engenheiros abordem problemas que envolvam geometria diferencial e equações 
+                 diferenciais parciais. Além dos estudos sobre campos eletromagnéticos, também destacam-se as aplicações
+                 em campos gravitacionais e mecânica dos fluídos. As equações de Maxwell como mostradas na imagem utilizam 
+                 duas operações em campos vetoriais, o divergente e o rotacional. Belo, não? Mas, o que tudo isso significa?
+                 Vamos por partes. No começo dessa revisão iremos abordar os vetores e as funções vetoriais.
+            </p>
+            <BR clear="right"/>
+            <img class="imgEsquerda" src="imagens/vetor.png" width="120px"/>
+            <p>
+                O vetor e os campos vetorias são definidos formalmente através da álgebra linear. Aqui adotaremos
+                 o conceito intuitivo de que o vetor é uma flecha no espaço. Um vetor possui magnitude, direção e sentido. 
+                 Um vetor 
+                 <img src="https://s0.wp.com/latex.php?latex=%5Cvec%7Bv%7D&amp;bg=f5f6f7&amp;fg=444444&amp;s=0&amp;c=20201002" alt="\vec{v}" class="latex" width="10" height="12" srcset="https://s0.wp.com/latex.php?latex=%5Cvec%7Bv%7D&amp;bg=f5f6f7&amp;fg=444444&amp;s=0&amp;c=20201002&amp;zoom=2 2x" scale="2">
+                 qualquer pode ser expresso pelo seu módulo e o seu versor: 
+                 <img src="https://s0.wp.com/latex.php?latex=%5Cvec%7Bv%7D%3D%7C%5Cvec%7Bv%7D%7C%5Chat%7Bv%7D&amp;bg=f5f6f7&amp;fg=444444&amp;s=0&amp;c=20201002" alt="\vec{v}=|\vec{v}|\hat{v}" class="latex" width="56" height="17" srcset="https://s0.wp.com/latex.php?latex=%5Cvec%7Bv%7D%3D%7C%5Cvec%7Bv%7D%7C%5Chat%7Bv%7D&amp;bg=f5f6f7&amp;fg=444444&amp;s=0&amp;c=20201002&amp;zoom=2 2x" scale="2">.
+            </p>
+            <img class="imgDireita" src="imagens/soma_vetorial.png" width="400px"/>
+            <p>
+                A soma de dois vetores <img src="https://s0.wp.com/latex.php?latex=%5Cvec%7Bv%7D_1&amp;bg=f5f6f7&amp;fg=444444&amp;s=0&amp;c=20201002" alt="\vec{v}_1" class="latex" width="13" height="15" srcset="https://s0.wp.com/latex.php?latex=%5Cvec%7Bv%7D_1&amp;bg=f5f6f7&amp;fg=444444&amp;s=0&amp;c=20201002&amp;zoom=2 2x" scale="2"> 
+                e <img src="https://s0.wp.com/latex.php?latex=%5Cvec%7Bv%7D_2&amp;bg=f5f6f7&amp;fg=444444&amp;s=0&amp;c=20201002" alt="\vec{v}_2" class="latex" width="14" height="15" srcset="https://s0.wp.com/latex.php?latex=%5Cvec%7Bv%7D_2&amp;bg=f5f6f7&amp;fg=444444&amp;s=0&amp;c=20201002&amp;zoom=2 2x" scale="2">
+                se obtém através do alinhamento das extremidades desses vetores como demonstrado na figura. O vetor 1 é colocado
+                na extremidade final do vetor 2. Daí, traçamos um terceiro vetor resultante da origem até a extremidade 
+                inicial do vetor 2. 
+            </p>                                                                                                 
+            <p>
+                Outro conceito importante de se relembrar é a diferença entre campos escalares e vetoriais no <strong>R<sup>3</sup></strong>. 
+                Ambos campos representam funções e, de uma forma simples, uma função nada mais é do que um objeto que recebe 
+                uma entrada e retorna uma saída. Seja uma função <em>f : R &#8594; R</em>, ou seja, uma função que recebe números reais e 
+                retornam números reais, como por exemplo: <em>f(x) = x<sup>2</sup> + x - 6</em>.
+                Tais funções são amplamente abordadas nos cursos iniciais de matemática, mas essa ideia pode ser generalizada. 
+                Uma função também pode receber múltiplas entradas ou retornar vetores, os quais podem ser expressados por uma lista
+                <em>n</em> de números.
+            </p> 
+            <p>
+                Quando uma função recebe múltiplas entradas, é geralmente dito que esta função recebe um vetor. 
+                Os objetos de interesse são os campos escalares e vetorias no <strong>R<sup>3</sup></strong>. 
+                Um campo escalar no <strong>R<sup>3</sup></strong> é uma função do tipo <em>f : <strong>R<sup>3</sup></strong> &#8594; <strong>R</strong></em>, 
+                a qual recebe três números reais (basicamente, um vetor) e retorna um único número. Um exemplo de campo escalar é a função:
+                <em>f(x) = x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup></em>. De forma intuitiva, um campo escalar retorna um escalar. 
+                Esse tipo de função pode ser imaginada como um objeto que estabelece um número para cada ponto de um determinado espaço.
+            </p>
+            <p>
+                Em contraste, um campo vetorial no <strong>R<sup>3</sup></strong> é uma função 
+                <em><strong></strong>F : R<sup>3</sup></strong> &#8594; <strong>R<sup>3</sup></strong></em>, ou seja, uma função que recebe 
+                um vetor e retorna outro vetor. Um exemplo de uma função desse tipo é: <em>r(t) = &#60;2 cos t, 4 sin t, t&#62;</em>.
+                Analogamente a um campo escalar, um campo vetorial pode ser imaginado como alocar um vetor em cada ponto de um determinado espaço. 
+            </p>
+            <p>
+                Bom, por hoje é só. Semana que vem continuaremos com a parte 2 da revisão, onde abordaremos a multiplicação de vetores. 
+                Até mais, um abraço! 
+            </p>
+        </article>
+        <hr>
+    </main>
+</body>
+</html>
